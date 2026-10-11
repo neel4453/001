@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { markDuplicates, independentCount, suggestRelation, sourceQualityWeight, freshnessWeight } from '../src/core/evidence';
 import type { Claim, EvidenceRecord } from '../src/types';
 
@@ -61,5 +61,17 @@ describe('weights', () => {
     expect(freshnessWeight('2010-01-01', [2023])).toBeLessThan(0.4);
     expect(freshnessWeight('2024-01-01', [2023])!).toBeGreaterThanOrEqual(0.8);
     expect(freshnessWeight(undefined, [2023])).toBe(null);
+  });
+});
+
+describe('adapter response-shape resilience', () => {
+  it('restcountries reports an unexpected-shape error instead of crashing on a non-array 200 body', async () => {
+    const { runAdapter } = await import('../src/core/adapters/index');
+    const { DEFAULT_SETTINGS } = await import('../src/types');
+    vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify({ unexpected: 'object' }), { status: 200 })));
+    const r = await runAdapter('restcountries', 'Country Nowhere raised spending', { ...DEFAULT_SETTINGS, mode: 'online' });
+    vi.unstubAllGlobals();
+    expect(r.ok).toBe(false);
+    expect(r.error).toContain('Unexpected response shape');
   });
 });

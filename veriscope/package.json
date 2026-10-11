@@ -2,7 +2,7 @@
   "name": "veriscope",
   "productName": "VeriScope",
   "version": "1.0.0",
-  "description": "VeriScope — a free, privacy-first, evidence-first fact-checking Chrome extension. Verifies claims against transparent evidence with honest uncertainty. No paid APIs, no tracking, local-by-default.",
+  "description": "VeriScope \u2014 a free, privacy-first, evidence-first fact-checking Chrome extension. Verifies claims against transparent evidence with honest uncertainty. No paid APIs, no tracking, local-by-default.",
   "license": "MIT",
   "private": true,
   "type": "module",
@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "check": "npm run typecheck && npm run lint && npm run test && npm run build"
+    "check": "npm run typecheck && npm run lint && npm run test && npm run build",
+    "demo": "vite-node scripts/demo-run.ts"
   },
   "dependencies": {
     "exifr": "^7.1.3",

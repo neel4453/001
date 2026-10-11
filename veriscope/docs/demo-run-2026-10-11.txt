@@ -1,0 +1,89 @@
+
+══════════════════════════════════════════════════════════════════════════
+  0 · Baseline: settings, registry, UI-less environment
+══════════════════════════════════════════════════════════════════════════
+  mode: online · autoQueries: true · cloud speech: false (off by default = privacy)
+  ✅ PASS  source registry loads clean (validation errors: 0)
+  registry: 236 sources · 15 categories · 10 with API access · 9 honestly marked restricted
+  ✅ PASS  no unverified source claims a "checked" status (build honesty rule)
+
+══════════════════════════════════════════════════════════════════════════
+  1 · STRICT OFFLINE — extract, retrieve-attempt, verdict, zero-request proof
+══════════════════════════════════════════════════════════════════════════
+  ✅ PASS  offline verification made ZERO network requests (spy recorded 0)
+  claims extracted: 5
+   · [factual] Country A signed the treaty in 2018, spent $5 billion on the program in …  ⟵ numbers: $5 billion  ⟵ dates: 2018, 2022
+   · [factual] Country A reduced emissions by 30%.  ⟵ numbers: 30%  ⟵ missing: base/baseline of the percentage
+   · [opinion] I think the deal was a complete disgrace and everyone knows it.  ⟵ missing: who/which country the pronouns refer to
+   · [prediction] Analysts predict the economy will grow by 8% in 2027.  ⟵ numbers: 8%  ⟵ dates: 2027  ⟵ missing: base/baseline of the percentage
+   · [question] Should voters trust these numbers at all?
+  ✅ PASS  passage split into facts vs opinion/prediction/question (never flattened to true/false)
+  ✅ PASS  prediction/question recognized as non-verifiable-now
+  ✅ PASS  offline verdict is honest: “Unverified — insufficient evidence”
+  ✅ PASS  manual search links prepared & labeled “not performed” (14 candidates)
+  ✅ PASS  core fetch door refuses even if someone calls it while offline
+
+══════════════════════════════════════════════════════════════════════════
+  2 · ONLINE EVIDENCE MODE (synthetic transport fixtures, clearly labeled)
+══════════════════════════════════════════════════════════════════════════
+  attempted adapters: gdelt ✓ (0 docs), restcountries ✗, wayback ✓ (0 docs), wikipedia ✓ (2 docs)
+  automated evidence retrieved: 2 (verdict.retrievedCount=3)
+  ✅ PASS  retrieval actually happened (requests hit the stubbed network, evidence returned)
+  ✅ PASS  auto-relations are PROVISIONAL suggestions, never final
+  ✅ PASS  verdict caveated as provisional while unassessed by user
+  pre-assessment verdict: “Mostly supported”  confidence: high (0.76/1)
+  after user assessment: supports=1 contradicts=0 → “Mostly supported” (high)
+  ✅ PASS  verdict transitions with assessed evidence
+  ✅ PASS  user assessment recorded as user-set (not hidden as machine)
+  confidence factors:
+   · Source quality=0.6 (Mean type-weight across assessed evidence (primary=1.0 … social=)
+   · Directness=1 (Whether passages address the claim’s exact numbers/wording.)
+   · Agreement=1 (Share of assessed evidence supporting: 1/1.)
+   · Freshness=0.8 (Publication dates vs. the claim’s time period.)
+   · Retrieval completeness=0.75 (3 of 4 attempted automated sources returned data.)
+   · Context completeness=0.45 (Missing: base/baseline of the percentage.)
+  ✅ PASS  confidence explicitly disclaimed as non-calibrated
+
+══════════════════════════════════════════════════════════════════════════
+  3 · DOCUMENT ANALYSIS (parsed locally — no upload path exists)
+══════════════════════════════════════════════════════════════════════════
+   · [review] duplicate-passage: This passage appears verbatim a second time (first at offset 72).
+   · [review] inconsistent-number: The same topic is reported with different figures: "$5 billion" vs "$9 billion". Verify which me
+   · [info] citation-error: DOI 10.5555/not-a-real-doi format is valid; not looked up (offline mode or lookups disabled).
+   · [review] missing-reference: The text cites [1]..[12] but no reference list was detected. Citations cannot be checked against
+   · [info] ambiguous-wording: Ambiguous legal phrasing “from time to time”. Such clauses need HUMAN legal review — unusual wor
+   · [info] ambiguous-wording: Ambiguous legal phrasing “best efforts”. Such clauses need HUMAN legal review — unusual wording 
+   · [info] ambiguous-wording: Ambiguous legal phrasing “good faith”. Such clauses need HUMAN legal review — unusual wording is
+   · [info] ambiguous-wording: Ambiguous legal phrasing “to the extent appropriate”. Such clauses need HUMAN legal review — unu
+  ✅ PASS  conflicting dates / figures across articles flagged
+  ✅ PASS  verbatim duplicate passage flagged
+  ✅ PASS  legal ambiguity ("from time to time", "good faith"…) flagged FOR HUMAN REVIEW
+  ✅ PASS  bracketed citation [12] without a reference list flagged
+  ✅ PASS  DOI offline-handled honestly: format-checked, explicitly NOT claimed resolved
+  ✅ PASS  every finding carries humanReviewRequired=true
+
+══════════════════════════════════════════════════════════════════════════
+  4 · MEDIA, SPEECH, EXPORT, STORAGE
+══════════════════════════════════════════════════════════════════════════
+  ✅ PASS  metadata inspection runs and reports honestly (no XMP present)
+  ✅ PASS  reverse-search links built for user clicks (Google Lens, TinEye, Bing Visual Search, Wayback: find older appearances of a page, Content Credentials verifier, InVID-WeVerify plugin tools) — none auto-performed
+  ✅ PASS  speech transcript import parses timestamps for offline live-mode
+  ✅ PASS  markdown export contains claim + verdict sections
+  ✅ PASS  export embeds the retrieved (labeled-synthetic) evidence trail — inspectable links
+  ✅ PASS  export footer restates “no evidence ≠ false”
+
+══════════════════════════════════════════════════════════════════════════
+  5 · LOCAL STORAGE LIFECYCLE (chrome absent → dev-mode in-memory backend)
+══════════════════════════════════════════════════════════════════════════
+  ✅ PASS  investigation saved → history index updated (id, verdict, counts)
+  ✅ PASS  delete removes item + history entry; wipe-all path already unit-tested
+  ✅ PASS  context-menu → panel handoff is one-shot
+
+══════════════════════════════════════════════════════════════════════════
+  6 · RESTORE + FINAL NETWORK TALLY
+══════════════════════════════════════════════════════════════════════════
+  requests attempted during whole demo: 3 — all in the labeled online leg, all to stubbed public-API URLs
+  ✅ PASS  no stray hosts touched (every request was a documented API origin)
+
+✅ DEMO COMPLETED — all assertions passed
+   (Online evidence leg used SYNTHETIC fixtures in this sandbox; in real Chrome the same code path hits the live free APIs.)

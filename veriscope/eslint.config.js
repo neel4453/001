@@ -7,14 +7,14 @@ import globals from 'globals';
 export default tseslint.config(
   { ignores: ['dist', 'node_modules', 'local-engine'] },
   {
-    files: ['scripts/**/*.mjs', 'vite.config.ts', 'vite.sw.config.ts', 'scripts/**/*.js'],
+    files: ['scripts/**/*.mjs', 'vite.config.ts', 'vite.sw.config.ts', 'scripts/**/*.js', 'scripts/**/*.ts'],
     languageOptions: { globals: { ...globals.node } },
     rules: { 'no-undef': 'off' },
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    files: ['src/**/*.{ts,tsx}', 'tests/**/*.{ts,tsx}'],
+    files: ['src/**/*.{ts,tsx}', 'tests/**/*.{ts,tsx}', 'scripts/**/*.ts'],
     plugins: { 'react-hooks': reactHooks },
     rules: {
       '@typescript-eslint/no-explicit-any': 'off',

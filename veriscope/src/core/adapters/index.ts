@@ -187,7 +187,10 @@ async function restcountries(query: string, settings: Settings): Promise<Adapter
   if (!name) return { adapter: 'restcountries', ok: true, docs: [], note: 'No country name detected; skipping REST Countries lookup.' };
   const r = await safeFetchJson<any[]>(`https://restcountries.com/v3.1/name/${encodeURIComponent(name.toLowerCase())}?fields=name,capital,region,population,independent,subregion`, settings, { headers: UA });
   if (!r.ok) return { adapter: 'restcountries', ok: false, docs: [], error: r.error };
-  const docs: FetchedDoc[] = (r.data ?? []).slice(0, 2).map((c: any) => ({
+  if (!Array.isArray(r.data)) {
+    return { adapter: 'restcountries', ok: false, docs: [], error: 'Unexpected response shape from restcountries.com (expected a JSON array) — the API may have changed; nothing was fabricated from it.' };
+  }
+  const docs: FetchedDoc[] = r.data.slice(0, 2).map((c: any) => ({
     adapter: 'restcountries',
     title: `Country data: ${c.name?.common}`,
     url: 'https://restcountries.com',

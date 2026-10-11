@@ -52,6 +52,19 @@ describe('internal-consistency checks', () => {
     const findings = await analyzeDocument({ name: 'a.txt', format: 'txt', text, warnings: [] });
     expect(findings.some((f) => f.kind === 'inconsistent-number')).toBe(true);
   });
+  it('duplicate detection is paragraph-aware (a title fused to para 1 must not mask a verbatim repeat)', async () => {
+    const dup = 'Article 1. The parties ratified the framework convention establishing binding targets for signatories.';
+    const text = ['REPORT OF SYNTHETIC FINDINGS (demo)', dup, 'Interposing sentence about unrelated matters entirely.', dup].join('\n');
+    const findings = await analyzeDocument({ name: 'b.txt', format: 'txt', text, warnings: [] });
+    expect(findings.some((f) => f.kind === 'duplicate-passage')).toBe(true);
+  });
+  it('does not flag small bare integers (section numbers) as conflicting figures', async () => {
+    const text = ['Section 1. The program cost $5 billion in total spending during 2022.', 'Section 14 covers unrelated procurement rules only for the navy.', 'Section 1. The program cost $9 billion in total spending during 2022.'].join('\n');
+    const findings = await analyzeDocument({ name: 'c.txt', format: 'txt', text, warnings: [] });
+    const nums = findings.filter((f) => f.kind === 'inconsistent-number');
+    expect(nums.some((f) => f.message.includes('$5 billion') && f.message.includes('$9 billion'))).toBe(true);
+    expect(nums.some((f) => /"1".*"14"|(?:"|\b)(?:1|14)(?:"|\b) vs/.test(f.message) && !f.message.includes('$'))).toBe(false);
+  });
   it('detects duplicate passages', async () => {
     const s = 'Emissions from the energy sector increased by 2.3% year over year in the full fiscal reporting cycle.';
     const findings = await analyzeDocument({ name: 'a.txt', format: 'txt', text: `${s} More here. ${s} More here.`, warnings: [] });

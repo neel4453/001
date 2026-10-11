@@ -1,4 +1,4 @@
-import type { ClaimSpan, DocumentFinding, ParsedDocument } from '../../types';
+import type { ClaimSpan, DocumentFinding, NumericFact, ParsedDocument } from '../../types';
 import { splitSentences } from '../sentences';
 import { extractDates } from '../dates';
 import { extractNumbers, compareNumbers } from '../units';
@@ -24,7 +24,14 @@ export async function analyzeDocument(doc: ParsedDocument, opts: CheckOptions = 
     return out;
   }
 
-  const sentences = splitSentences(text.replace(/\n+/g, ' '));
+  // Paragraph-aware: newline boundaries end sentences, so a document title fused to
+  // the first paragraph cannot mask verbatim-duplicate detection (offsets stay document-relative).
+  const sentences: { text: string; start: number; end: number }[] = [];
+  let paraOff = 0;
+  for (const para of text.split(/\n+/)) {
+    for (const sn of splitSentences(para)) sentences.push({ text: sn.text, start: sn.start + paraOff, end: sn.end + paraOff });
+    paraOff += para.length + 1;
+  }
   const pageFor = (pos: number): string | undefined => {
     if (!doc.pages) return undefined;
     const p = doc.pages.find((pg) => pos >= pg.start && pos <= pg.end);
@@ -65,7 +72,11 @@ export async function analyzeDocument(doc: ParsedDocument, opts: CheckOptions = 
     }
   }
 
-  // 3) Inconsistent numbers: similar context, different values, same unit/currency
+  // 3) Inconsistent numbers: similar context, different values, same unit/currency.
+  //    Only compare at least one "meaningful" figure (currency/percent/units) so that
+  //    incidental integers (Article 1 vs Article 14) don't produce noise findings.
+  const meaningful = (n: NumericFact) =>
+    n.kind === 'currency' || n.kind === 'percent' || (!!n.unit && n.unit !== 'count');
   for (let i = 0; i < sentences.length; i++) {
     const a = sentences[i];
     const an = extractNumbers(a.text);
@@ -77,7 +88,7 @@ export async function analyzeDocument(doc: ParsedDocument, opts: CheckOptions = 
       for (const x of an) {
         for (const y of extractNumbers(b.text)) {
           const cmp = compareNumbers(x, y);
-          if (cmp === 'differ') {
+          if (cmp === 'differ' && (meaningful(x) || meaningful(y))) {
             out.push(f(
               'inconsistent-number', 'review',
               `The same topic is reported with different figures: "${x.raw}" vs "${y.raw}". Verify which measure/period each refers to.`,

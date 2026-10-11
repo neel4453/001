@@ -13,6 +13,11 @@ export default defineConfig({
     __APP_VERSION__: JSON.stringify(pkg.version),
   },
   plugins: [react()],
+  server: {
+    // Dev-only UI preview (not the extension runtime itself — MV3 needs chrome APIs).
+    host: '0.0.0.0',
+    allowedHosts: true,
+  },
   build: {
     target: 'chrome120',
     sourcemap: false,
