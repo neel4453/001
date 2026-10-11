@@ -27,7 +27,7 @@ export function SidePanelApp() {
   const [tab, setTab] = useState<TabId>('verify');
   const [settings, update] = useSettings();
   useThemeApplier(settings?.theme ?? 'system');
-  const [pending] = usePendingAction((p) => p);
+  const [pending] = usePendingAction((p) => p); // single consumer; tabs receive it as props
 
   useEffect(() => {
     if (!pending) return;
@@ -69,10 +69,10 @@ export function SidePanelApp() {
       </nav>
 
       <main role="tabpanel" id={`panel-${tab}`} aria-labelledby={`tab-${tab}`}>
-        {tab === 'verify' && <VerifyTab settings={settings} />}
-        {tab === 'page' && <PageTab settings={settings} />}
+        {tab === 'verify' && <VerifyTab settings={settings} pending={pending && (pending.kind === 'selection' || pending.kind === 'manual') ? pending : null} />}
+        {tab === 'page' && <PageTab settings={settings} pending={pending?.kind === 'page' ? pending : null} />}
         {tab === 'docs' && <DocsTab settings={settings} />}
-        {tab === 'media' && <MediaTab settings={settings} />}
+        {tab === 'media' && <MediaTab settings={settings} pending={pending?.kind === 'image' ? pending : null} />}
         {tab === 'live' && <LiveTab settings={settings} onSettingsChange={update} />}
         {tab === 'sources' && <SourcesTab settings={settings} onSettingsChange={update} currentQuery={pending && 'text' in pending ? pending.text : undefined} />}
         {tab === 'history' && <HistoryTab currentInvestigations={[]} linksByClaim={new Map()} />}

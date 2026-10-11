@@ -3,7 +3,6 @@ import type { Settings } from '../../types';
 import { Btn, Chip, Glass, SectionTitle, Spinner, useToast } from '../components/ui';
 import { ClaimInvestigationCard } from '../components/investigation';
 import { useWorkbench } from './useWorkbench';
-import { usePendingAction } from '../hooks';
 import { extractClaims } from '../../core/claims';
 import { vsFindAiAnswers, type VsAiAnswer } from '../../content/pageFunctions';
 
@@ -12,15 +11,13 @@ import { vsFindAiAnswers, type VsAiAnswer } from '../../content/pageFunctions';
  * permission, no persistent host access), splits to atomic claims, dedupes,
  * links each claim back to its passage, and offers per-claim verification.
  */
-export function PageTab({ settings }: { settings: Settings }) {
+export function PageTab({ settings, pending = null }: { settings: Settings; pending?: { kind: string; url?: string; pageTitle?: string } | null }) {
   const [page, setPage] = useState<{ ok: boolean; text: string; url: string; title: string; error?: string } | null>(null);
   const [answers, setAnswers] = useState<VsAiAnswer[] | null>(null);
   const [scanning, setScanning] = useState(false);
   const [selectedIdx, setSelectedIdx] = useState<number[]>([]);
   const wb = useWorkbench(settings);
   const toast = useToast();
-  const [pending] = usePendingAction((p) => (p.kind === 'page' ? { url: p.url, title: p.pageTitle, at: p.at } : null));
-
   const scan = async () => {
     setScanning(true);
     try {

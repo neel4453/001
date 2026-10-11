@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { Settings } from '../../types';
 import { Btn, Chip, Glass, SectionTitle, Spinner, openTab, useToast } from '../components/ui';
 import { readImageMetadata, reverseImageLinks, videoEvidenceLinks, cropFrame, type ImageMeta } from '../../core/media';
@@ -9,7 +9,7 @@ import { downloadText } from '../../core/export';
  * and offline-capable; reverse search happens in the USER's browser tab after an
  * explicit click. We never fake results and never call paid detectors.
  */
-export function MediaTab({ settings }: { settings: Settings }) {
+export function MediaTab({ settings, pending = null }: { settings: Settings; pending?: { kind: string; imageUrl?: string; url?: string } | null }) {
   const [meta, setMeta] = useState<ImageMeta | null>(null);
   const [fileName, setFileName] = useState('');
   const [imgUrl, setImgUrl] = useState('');
@@ -19,6 +19,10 @@ export function MediaTab({ settings }: { settings: Settings }) {
   const fileRef = useRef<HTMLInputElement>(null);
   const toast = useToast();
   const links = reverseImageLinks(imgUrl || undefined);
+
+  useEffect(() => {
+    if (pending?.imageUrl) setImgUrl(pending.imageUrl);
+  }, [pending]);
 
   const handleFile = async (f: File) => {
     setBusy(true); setFileName(f.name);

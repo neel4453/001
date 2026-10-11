@@ -3,11 +3,10 @@ import type { Settings, Investigation } from '../../types';
 import { Btn, Chip, Glass, Modal, SectionTitle, Empty, ProgressBar, Spinner, openTab, useToast } from '../components/ui';
 import { ClaimInvestigationCard, AddEvidenceModal } from '../components/investigation';
 import { useWorkbench } from './useWorkbench';
-import { usePendingAction } from '../hooks';
 import { investigationToMarkdown, investigationToJson, downloadText } from '../../core/export';
 
 
-export function VerifyTab({ settings }: { settings: Settings }) {
+export function VerifyTab({ settings, pending = null }: { settings: Settings; pending?: { kind: string; text?: string; url?: string; pageTitle?: string } | null }) {
   const [text, setText] = useState('');
   const [munMode, setMunMode] = useState(false);
   const [ctx, setCtx] = useState({ speaker: '', country: '', committee: '', period: '', documentRef: '' });
@@ -17,17 +16,16 @@ export function VerifyTab({ settings }: { settings: Settings }) {
   const [flagFor, setFlagFor] = useState<string | null>(null);
   const wb = useWorkbench(settings);
   const toast = useToast();
-  const [pending] = usePendingAction((p) => (p.kind === 'selection' || p.kind === 'manual') && p.text ? { text: p.text, url: p.url, title: p.pageTitle } : null);
 
   useEffect(() => {
-    if (pending) setText(pending.text);
+    if (pending?.text) setText(pending.text);
   }, [pending]);
 
   const start = async () => {
     if (!text.trim()) return void toast({ kind: 'error', text: 'Enter or select a claim first.' });
     await wb.verify(text.trim(), {
-      url: (pending as any)?.url, title: (pending as any)?.title,
-      sourceKind: (pending as any)?.url ? 'selection' : 'manual',
+      url: pending?.url, title: pending?.pageTitle,
+      sourceKind: pending?.url ? 'selection' : 'manual',
       context: munMode ? ctx : undefined,
     });
   };
