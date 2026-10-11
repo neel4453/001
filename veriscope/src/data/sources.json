@@ -1,0 +1,4856 @@
+[
+ {
+  "id": "adobe-content-authenticity",
+  "name": "Adobe Content Authenticity",
+  "url": "https://contentauthenticity.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "afp-fact-check",
+  "name": "AFP Fact Check",
+  "url": "https://factcheck.afp.com",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "africa-check",
+  "name": "Africa Check",
+  "url": "https://africacheck.org",
+  "searchUrl": "https://africacheck.org?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "africa"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "african-union",
+  "name": "African Union",
+  "url": "https://au.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "africa"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ai-incident-database",
+  "name": "AI Incident Database",
+  "url": "https://incidentdatabase.ai",
+  "searchUrl": "https://incidentdatabase.ai/catalog/search?keyword={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "al-jazeera",
+  "name": "Al Jazeera",
+  "url": "https://www.aljazeera.com",
+  "searchUrl": "https://www.aljazeera.com?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "alt-news",
+  "name": "Alt News",
+  "url": "https://altnews.in",
+  "searchUrl": "https://altnews.in?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "amnesty-citizen-evidence-lab",
+  "name": "Amnesty Citizen Evidence Lab",
+  "url": "https://citizenevidence.amnestyusa.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "amnesty-international",
+  "name": "Amnesty International",
+  "url": "https://www.amnesty.org",
+  "searchUrl": "https://www.amnesty.org/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "arxiv",
+  "name": "arXiv",
+  "url": "https://arxiv.org",
+  "searchUrl": "https://arxiv.org/search?type=all&query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "asean",
+  "name": "ASEAN",
+  "url": "https://asean.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "associated-press",
+  "name": "Associated Press",
+  "url": "https://apnews.com",
+  "searchUrl": "https://apnews.com/search?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "associated-press-fact-check",
+  "name": "Associated Press Fact Check",
+  "url": "https://apnews.com/hub/fact-check",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "news"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "australian-bureau-of-statistics",
+  "name": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au",
+  "searchUrl": "https://www.abs.gov.au?queryText={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "au"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "bbc-news",
+  "name": "BBC News",
+  "url": "https://www.bbc.com/news",
+  "searchUrl": "https://www.bbc.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "bellingcat",
+  "name": "Bellingcat",
+  "url": "https://www.bellingcat.com",
+  "searchUrl": "https://www.bellingcat.com?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news",
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "bellingcat-toolkit",
+  "name": "Bellingcat Toolkit",
+  "url": "https://bellingcat.gitlab.io/toolkit/",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "biorxiv",
+  "name": "bioRxiv",
+  "url": "https://www.biorxiv.org",
+  "searchUrl": "https://www.biorxiv.org/search/simple%3Fquery%3D{query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "bluesky",
+  "name": "Bluesky",
+  "url": "https://bsky.app/search",
+  "searchUrl": "https://bsky.app/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "boom-live",
+  "name": "BOOM Live",
+  "url": "https://www.boomlive.in",
+  "searchUrl": "https://www.boomlive.in?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "bse-india",
+  "name": "BSE India",
+  "url": "https://www.bseindia.com",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "finance"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "c2pa-content-credentials",
+  "name": "C2PA / Content Credentials",
+  "url": "https://c2pa.org",
+  "searchUrl": "https://c2pa.org/contentcredentials.org/verify{query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "VeriScope reads C2PA-related XMP locally as a heuristic; full validation: use the open-source c2pa-tools CLI.",
+  "lastChecked": null
+ },
+ {
+  "id": "cag-india",
+  "name": "CAG India",
+  "url": "https://www.cag.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "finance",
+   "law"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "cambridge-dictionary",
+  "name": "Cambridge Dictionary",
+  "url": "https://dictionary.cambridge.org",
+  "searchUrl": "https://dictionary.cambridge.org/search?q={query}&dictionary=english",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "cdc",
+  "name": "CDC",
+  "url": "https://www.cdc.gov",
+  "searchUrl": "https://www.cdc.gov?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "health",
+   "government"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "cdsco-india",
+  "name": "CDSCO India",
+  "url": "https://cdscoonline.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "health",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "central-pollution-control-board",
+  "name": "Central Pollution Control Board",
+  "url": "https://cpcb.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "cert-in",
+  "name": "CERT-In",
+  "url": "https://www.cert-in.org.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "cia-world-factbook-archive",
+  "name": "CIA World Factbook (archive)",
+  "url": "https://www.cia.gov/the-world-factbook/",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "government"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "historical-archive",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Discontinued 2026 — treat as ARCHIVED historical data; do not assume current. accessStatus should remain not-checked until verified.",
+  "lastChecked": null
+ },
+ {
+  "id": "cisa",
+  "name": "CISA",
+  "url": "https://www.cisa.gov",
+  "searchUrl": "https://www.cisa.gov?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "clinicaltrials-gov",
+  "name": "ClinicalTrials.gov",
+  "url": "https://clinicaltrials.gov",
+  "searchUrl": "https://clinicaltrials.gov/search?term={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "health",
+   "reference"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "cochrane-library",
+  "name": "Cochrane Library",
+  "url": "https://www.cochranelibrary.com",
+  "searchUrl": "https://www.cochranelibrary.com?searchText={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "health"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "common-crawl",
+  "name": "Common Crawl",
+  "url": "https://commoncrawl.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Dataset access only; heavy. Use the index API manually.",
+  "lastChecked": null
+ },
+ {
+  "id": "companies-house-uk",
+  "name": "Companies House UK",
+  "url": "https://find-and-update.company-information.service.gov.uk",
+  "searchUrl": "https://find-and-update.company-information.service.gov.uk/search?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "government"
+  ],
+  "countries": [
+   "gb"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "copernicus-climate-change-service",
+  "name": "Copernicus Climate Change Service",
+  "url": "https://climate.copernicus.eu",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "copernicus-data-space",
+  "name": "Copernicus Data Space",
+  "url": "https://dataspace.copernicus.eu",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment",
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "core",
+  "name": "CORE",
+  "url": "https://core.ac.uk",
+  "searchUrl": "https://core.ac.uk/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "CORE API now requires a free key; treat as optional.",
+  "lastChecked": null
+ },
+ {
+  "id": "cornell-legal-information-institute",
+  "name": "Cornell Legal Information Institute",
+  "url": "https://www.law.cornell.edu",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "courtlistener",
+  "name": "CourtListener",
+  "url": "https://www.courtlistener.com",
+  "searchUrl": "https://www.courtlistener.com?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "crossref-api",
+  "name": "Crossref API",
+  "url": "https://api.crossref.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "crossref"
+ },
+ {
+  "id": "data-gov-in",
+  "name": "data.gov.in",
+  "url": "https://data.gov.in",
+  "searchUrl": "https://data.gov.in?keyword={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "datacite",
+  "name": "DataCite",
+  "url": "https://search.datacite.org",
+  "searchUrl": "https://search.datacite.org/works?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "dbpedia",
+  "name": "DBpedia",
+  "url": "https://www.dbpedia.org",
+  "searchUrl": "https://www.dbpedia.org/sparql?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "deutsche-welle",
+  "name": "Deutsche Welle",
+  "url": "https://www.dw.com",
+  "searchUrl": "https://www.dw.com/search/en{query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "discord",
+  "name": "Discord",
+  "url": "https://discord.com",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "No public search; manual-only by design.",
+  "lastChecked": null
+ },
+ {
+  "id": "doaj",
+  "name": "DOAJ",
+  "url": "https://doaj.org",
+  "searchUrl": "https://doaj.org/search?ref=header&query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "duckduckgo-public-search",
+  "name": "DuckDuckGo (public search)",
+  "url": "https://duckduckgo.com/",
+  "searchUrl": "https://duckduckgo.com/?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Used as the generic site-scoped fallback: \"site:domain query\".",
+  "lastChecked": null
+ },
+ {
+  "id": "e-gazette-of-india",
+  "name": "e-Gazette of India",
+  "url": "https://egazette.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "law",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ecmwf",
+  "name": "ECMWF",
+  "url": "https://www.ecmwf.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ecourts",
+  "name": "eCourts",
+  "url": "https://ecourts.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "election-commission-of-india",
+  "name": "Election Commission of India",
+  "url": "https://www.eci.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "politics",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ema",
+  "name": "EMA",
+  "url": "https://www.ema.europa.eu",
+  "searchUrl": "https://www.ema.europa.eu/en/search-results?search={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "health"
+  ],
+  "countries": [
+   "eu"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "encyclopaedia-britannica",
+  "name": "Encyclopaedia Britannica",
+  "url": "https://www.britannica.com",
+  "searchUrl": "https://www.britannica.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "enisa",
+  "name": "ENISA",
+  "url": "https://www.enisa.europa.eu",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "eu"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "eric",
+  "name": "ERIC",
+  "url": "https://eric.ed.gov",
+  "searchUrl": "https://eric.ed.gov?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "eur-lex",
+  "name": "EUR-Lex",
+  "url": "https://eur-lex.europa.eu",
+  "searchUrl": "https://eur-lex.europa.eu?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law",
+   "government"
+  ],
+  "countries": [
+   "eu"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "europe-pmc",
+  "name": "Europe PMC",
+  "url": "https://europepmc.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "health"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "europepmc"
+ },
+ {
+  "id": "european-commission",
+  "name": "European Commission",
+  "url": "https://commission.europa.eu",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government"
+  ],
+  "countries": [
+   "eu"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "european-court-of-human-rights",
+  "name": "European Court of Human Rights",
+  "url": "https://www.echr.coe.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "european-union",
+  "name": "European Union",
+  "url": "https://european-union.europa.eu",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "government"
+  ],
+  "countries": [
+   "eu"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "europeana",
+  "name": "Europeana",
+  "url": "https://www.europeana.eu",
+  "searchUrl": "https://www.europeana.eu/search?f=&q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "eurostat",
+  "name": "Eurostat",
+  "url": "https://ec.europa.eu/eurostat",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "country-statistics"
+  ],
+  "countries": [
+   "eu"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "exiftool-local-cli",
+  "name": "ExifTool (local CLI)",
+  "url": "https://exiftool.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Local forensic metadata; VeriScope embeds the open-source exifr reader for basic EXIF/XMP locally.",
+  "lastChecked": null
+ },
+ {
+  "id": "facebook",
+  "name": "Facebook",
+  "url": "https://www.facebook.com/public/{query}",
+  "searchUrl": "https://www.facebook.com/public/{query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Access restrictions apply.",
+  "lastChecked": null
+ },
+ {
+  "id": "factcheck-org",
+  "name": "FactCheck.org",
+  "url": "https://www.factcheck.org",
+  "searchUrl": "https://www.factcheck.org?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "factly",
+  "name": "Factly",
+  "url": "https://factly.in",
+  "searchUrl": "https://factly.in?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "faostat",
+  "name": "FAOSTAT",
+  "url": "https://www.fao.org/faostat",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "fatf",
+  "name": "FATF",
+  "url": "https://www.fatf-gafi.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "fda",
+  "name": "FDA",
+  "url": "https://www.fda.gov",
+  "searchUrl": "https://www.fda.gov?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "health",
+   "government"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "federal-register",
+  "name": "Federal Register",
+  "url": "https://www.federalregister.gov",
+  "searchUrl": "https://www.federalregister.gov?conditions%5Bterm%5D={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "law"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "federal-reserve-fred",
+  "name": "Federal Reserve (FRED)",
+  "url": "https://fred.stlouisfed.org",
+  "searchUrl": "https://fred.stlouisfed.org?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "country-statistics"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "figshare",
+  "name": "Figshare",
+  "url": "https://figshare.com",
+  "searchUrl": "https://figshare.com/search/articles?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "financial-times",
+  "name": "Financial Times",
+  "url": "https://www.ft.com",
+  "searchUrl": "https://www.ft.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news",
+   "finance"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Paywalled content: expect restricted access.",
+  "lastChecked": null
+ },
+ {
+  "id": "france-24",
+  "name": "France 24",
+  "url": "https://www.france24.com",
+  "searchUrl": "https://www.france24.com/en/search?text={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "fssai-india",
+  "name": "FSSAI India",
+  "url": "https://www.fssai.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "health",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "full-fact",
+  "name": "Full Fact",
+  "url": "https://fullfact.org",
+  "searchUrl": "https://fullfact.org?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "gb"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "gdelt",
+  "name": "GDELT",
+  "url": "https://www.gdeltproject.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "gdelt"
+ },
+ {
+  "id": "global-carbon-project",
+  "name": "Global Carbon Project",
+  "url": "https://www.globalcarbonproject.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "global-forest-watch",
+  "name": "Global Forest Watch",
+  "url": "https://www.globalforestwatch.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "google-fact-check-explorer",
+  "name": "Google Fact Check Explorer",
+  "url": "https://toolbox.google.com/factcheck/explorer",
+  "searchUrl": "https://duckduckgo.com/?q=site%3Atoolbox.google.com%2Ffactcheck",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "google-lens",
+  "name": "Google Lens",
+  "url": "https://lens.google.com",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Upload-by-URL: https://lens.google.com/uploadbyurl?url=IMAGE_URL (manual).",
+  "lastChecked": null
+ },
+ {
+  "id": "google-scholar",
+  "name": "Google Scholar",
+  "url": "https://scholar.google.com",
+  "searchUrl": "https://scholar.google.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Rate-limited; no official API. Manual-first only.",
+  "lastChecked": null
+ },
+ {
+  "id": "health-feedback",
+  "name": "Health Feedback",
+  "url": "https://healthfeedback.org",
+  "searchUrl": "https://healthfeedback.org?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "hudoc",
+  "name": "HUDOC",
+  "url": "https://hudoc.echr.coe.int",
+  "searchUrl": "https://hudoc.echr.coe.int/#{\"fulltext\":[{query}]}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "hugging-face-hub",
+  "name": "Hugging Face Hub",
+  "url": "https://huggingface.co",
+  "searchUrl": "https://huggingface.co?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity",
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "human-rights-watch",
+  "name": "Human Rights Watch",
+  "url": "https://www.hrw.org",
+  "searchUrl": "https://www.hrw.org/search?keys={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "iaea",
+  "name": "IAEA",
+  "url": "https://www.iaea.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "icij",
+  "name": "ICIJ",
+  "url": "https://www.icij.org",
+  "searchUrl": "https://www.icij.org?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news",
+   "finance",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "icmr",
+  "name": "ICMR",
+  "url": "https://www.icmr.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "health",
+   "reference"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "icrc",
+  "name": "ICRC",
+  "url": "https://www.icrc.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "iea-data",
+  "name": "IEA Data",
+  "url": "https://www.iea.org/data-and-statistics",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ilo",
+  "name": "ILO",
+  "url": "https://www.ilo.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "imf",
+  "name": "IMF",
+  "url": "https://www.imf.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "finance"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "imf-data",
+  "name": "IMF Data",
+  "url": "https://www.imf.org/en/Data",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "finance"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "india-code",
+  "name": "India Code",
+  "url": "https://www.indiacode.nic.in",
+  "searchUrl": "https://www.indiacode.nic.in?searchword={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "india-meteorological-department",
+  "name": "India Meteorological Department",
+  "url": "https://mausam.imd.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "india-gov-in",
+  "name": "India.gov.in",
+  "url": "https://www.india.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "politics"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "instagram",
+  "name": "Instagram",
+  "url": "https://www.instagram.com/explore/search/keyword/",
+  "searchUrl": "https://www.instagram.com/explore/search/keyword/?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media",
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Login required.",
+  "lastChecked": null
+ },
+ {
+  "id": "international-court-of-justice",
+  "name": "International Court of Justice",
+  "url": "https://www.icj-cij.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "international-criminal-court",
+  "name": "International Criminal Court",
+  "url": "https://www.icc-cpi.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "internet-archive",
+  "name": "Internet Archive",
+  "url": "https://archive.org",
+  "searchUrl": "https://archive.org?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video",
+   "reference",
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "invid-weverify",
+  "name": "InVID-WeVerify",
+  "url": "https://weverify.eu/verification/",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ipcc",
+  "name": "IPCC",
+  "url": "https://www.ipcc.ch",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "isro",
+  "name": "ISRO",
+  "url": "https://www.isro.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "itu-statistics",
+  "name": "ITU Statistics",
+  "url": "https://www.itu.int/en/ITU-D/Statistics",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "japan-statistics-bureau",
+  "name": "Japan Statistics Bureau",
+  "url": "https://www.stat.go.jp",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "jp"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "lead-stories",
+  "name": "Lead Stories",
+  "url": "https://leaddstories.com",
+  "searchUrl": "https://leaddstories.com?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "library-of-congress",
+  "name": "Library of Congress",
+  "url": "https://www.loc.gov",
+  "searchUrl": "https://www.loc.gov/search/?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "logically-facts",
+  "name": "Logically Facts",
+  "url": "https://www.logicallyfacts.com",
+  "searchUrl": "https://www.logicallyfacts.com?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "mastodon",
+  "name": "Mastodon",
+  "url": "https://mastodon.social/search",
+  "searchUrl": "https://mastodon.social/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "medlineplus",
+  "name": "MedlinePlus",
+  "url": "https://medlineplus.gov",
+  "searchUrl": "https://medlineplus.gov/search.html?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "health"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "medrxiv",
+  "name": "medRxiv",
+  "url": "https://www.medrxiv.org",
+  "searchUrl": "https://www.medrxiv.org/search/simple%3Fquery%3D{query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "merriam-webster",
+  "name": "Merriam-Webster",
+  "url": "https://www.merriam-webster.com",
+  "searchUrl": "https://www.merriam-webster.com/dictionary/{query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ministry-of-corporate-affairs",
+  "name": "Ministry of Corporate Affairs",
+  "url": "https://www.mca.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ministry-of-external-affairs",
+  "name": "Ministry of External Affairs",
+  "url": "https://www.mea.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "un-mun",
+   "politics"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ministry-of-finance",
+  "name": "Ministry of Finance",
+  "url": "https://www.indiabudget.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "finance"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ministry-of-home-affairs",
+  "name": "Ministry of Home Affairs",
+  "url": "https://www.mha.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "law"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "mitre-att-ck",
+  "name": "MITRE ATT&CK",
+  "url": "https://attack.mitre.org",
+  "searchUrl": "https://attack.mitre.org?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "mitre-cve",
+  "name": "MITRE CVE",
+  "url": "https://www.cve.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "cve.org search is unstable; MITRE API: https://cve.circl.lu/api/cve/CVE-ID mirrors freely.",
+  "lastChecked": null
+ },
+ {
+  "id": "mospi",
+  "name": "MoSPI",
+  "url": "https://mospi.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "nasa",
+  "name": "NASA",
+  "url": "https://science.nasa.gov",
+  "searchUrl": "https://science.nasa.gov/search?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "nasa-earth-observatory",
+  "name": "NASA Earth Observatory",
+  "url": "https://earthobservatory.nasa.gov",
+  "searchUrl": "https://earthobservatory.nasa.gov/search?k={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video",
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "national-crime-records-bureau",
+  "name": "National Crime Records Bureau",
+  "url": "https://ncrb.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "law"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "national-statistical-agencies-via-official-portals",
+  "name": "National statistical agencies (via official portals)",
+  "url": "https://unstats.un.org/home/",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Start from the UN statistics division country directory.",
+  "lastChecked": null
+ },
+ {
+  "id": "nato",
+  "name": "NATO",
+  "url": "https://www.nato.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ndma-india",
+  "name": "NDMA India",
+  "url": "https://ndma.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "newschecker",
+  "name": "Newschecker",
+  "url": "https://www.newschecker.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "nhrc-india",
+  "name": "NHRC India",
+  "url": "https://nhrc.nic.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "nhs",
+  "name": "NHS",
+  "url": "https://www.nhs.uk",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "health"
+  ],
+  "countries": [
+   "gb"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "nih",
+  "name": "NIH",
+  "url": "https://www.nih.gov",
+  "searchUrl": "https://www.nih.gov?term={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "health"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "nist",
+  "name": "NIST",
+  "url": "https://www.nist.gov",
+  "searchUrl": "https://www.nist.gov?text={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "nist-national-vulnerability-database",
+  "name": "NIST National Vulnerability Database",
+  "url": "https://nvd.nist.gov",
+  "searchUrl": "https://nvd.nist.gov/vuln/search/results?form_type=Basic&query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "niti-aayog",
+  "name": "NITI Aayog",
+  "url": "https://www.niti.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "noaa",
+  "name": "NOAA",
+  "url": "https://www.noaa.gov",
+  "searchUrl": "https://www.noaa.gov?search={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "npr",
+  "name": "NPR",
+  "url": "https://www.npr.org",
+  "searchUrl": "https://www.npr.org/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "nse-india",
+  "name": "NSE India",
+  "url": "https://www.nseindia.com",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "finance"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "occrp",
+  "name": "OCCRP",
+  "url": "https://www.occrp.org",
+  "searchUrl": "https://www.occrp.org/en/search?text={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "oecd",
+  "name": "OECD",
+  "url": "https://www.oecd.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "oecd-ai-policy-observatory",
+  "name": "OECD AI Policy Observatory",
+  "url": "https://www.oecd.ai",
+  "searchUrl": "https://www.oecd.ai?search={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity",
+   "government"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "oecd-data",
+  "name": "OECD Data",
+  "url": "https://data.oecd.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "openaire",
+  "name": "OpenAIRE",
+  "url": "https://explore.openaire.eu",
+  "searchUrl": "https://explore.openaire.eu/search/find/search-result?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "openalex-api",
+  "name": "OpenAlex API",
+  "url": "https://api.openalex.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "openalex"
+ },
+ {
+  "id": "opencorporates",
+  "name": "OpenCorporates",
+  "url": "https://opencorporates.com",
+  "searchUrl": "https://opencorporates.com/companies?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "finance"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "opensanctions",
+  "name": "OpenSanctions",
+  "url": "https://www.opensanctions.org",
+  "searchUrl": "https://www.opensanctions.org/search/?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "openssf",
+  "name": "OpenSSF",
+  "url": "https://openssf.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "orcid",
+  "name": "ORCID",
+  "url": "https://orcid.org",
+  "searchUrl": "https://orcid.org/search/?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "our-world-in-data",
+  "name": "Our World in Data",
+  "url": "https://ourworldindata.org",
+  "searchUrl": "https://ourworldindata.org?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "environment",
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "owasp",
+  "name": "OWASP",
+  "url": "https://owasp.org",
+  "searchUrl": "https://owasp.org?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "parliament-of-india",
+  "name": "Parliament of India",
+  "url": "https://sansad.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "law",
+   "politics"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "pbs-news",
+  "name": "PBS News",
+  "url": "https://www.pbs.org/newshour",
+  "searchUrl": "https://www.pbs.org/search/?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "pib-fact-check",
+  "name": "PIB Fact Check",
+  "url": "https://pib.gov.in/factcheck.html",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "historical-archive",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Manual: uses interactive archive; narrow by date on site.",
+  "lastChecked": null
+ },
+ {
+  "id": "politifact",
+  "name": "PolitiFact",
+  "url": "https://www.politifact.com",
+  "searchUrl": "https://www.politifact.com?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "press-information-bureau",
+  "name": "Press Information Bureau",
+  "url": "https://pib.gov.in",
+  "searchUrl": "https://pib.gov.in?KEY={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "politics"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "propublica",
+  "name": "ProPublica",
+  "url": "https://www.propublica.org",
+  "searchUrl": "https://www.propublica.org?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "prs-legislative-research",
+  "name": "PRS Legislative Research",
+  "url": "https://www.prsindia.org",
+  "searchUrl": "https://www.prsindia.org?search_api_fulltext={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "law",
+   "politics"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "pubmed",
+  "name": "PubMed",
+  "url": "https://pubmed.ncbi.nlm.nih.gov",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "health"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "pubmed"
+ },
+ {
+  "id": "pubmed-central",
+  "name": "PubMed Central",
+  "url": "https://pmc.ncbi.nlm.nih.gov",
+  "searchUrl": "https://pmc.ncbi.nlm.nih.gov?term={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "health"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "pubpeer",
+  "name": "PubPeer",
+  "url": "https://pubpeer.com",
+  "searchUrl": "https://pubpeer.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "reddit-public-json",
+  "name": "Reddit (public JSON)",
+  "url": "https://www.reddit.com/search.json",
+  "searchUrl": "https://www.reddit.com/search.json?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media",
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Rate limits and ToS apply; user-initiated navigation only.",
+  "lastChecked": null
+ },
+ {
+  "id": "research-organization-registry",
+  "name": "Research Organization Registry",
+  "url": "https://ror.org",
+  "searchUrl": "https://ror.org/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "reserve-bank-of-india",
+  "name": "Reserve Bank of India",
+  "url": "https://www.rbi.org.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "rest-countries-api",
+  "name": "REST Countries API",
+  "url": "https://restcountries.com",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "restcountries"
+ },
+ {
+  "id": "retraction-watch",
+  "name": "Retraction Watch",
+  "url": "https://retractionwatch.com",
+  "searchUrl": "https://retractionwatch.com?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Database search itself needs a free registration; site search is open.",
+  "lastChecked": null
+ },
+ {
+  "id": "reuters",
+  "name": "Reuters",
+  "url": "https://www.reuters.com",
+  "searchUrl": "https://www.reuters.com/site-search/?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "reuters-fact-check",
+  "name": "Reuters Fact Check",
+  "url": "https://www.reuters.com/fact-check/",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "news"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "science-feedback",
+  "name": "Science Feedback",
+  "url": "https://sciencefeedback.co",
+  "searchUrl": "https://sciencefeedback.co?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "scroll-in",
+  "name": "Scroll.in",
+  "url": "https://scroll.in",
+  "searchUrl": "https://scroll.in/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "sebi",
+  "name": "SEBI",
+  "url": "https://www.sebi.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "government"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "semantic-scholar",
+  "name": "Semantic Scholar",
+  "url": "https://www.semanticscholar.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "semanticscholar"
+ },
+ {
+  "id": "shodhganga",
+  "name": "Shodhganga",
+  "url": "https://shodhganga.inflibnet.ac.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "sipri",
+  "name": "SIPRI",
+  "url": "https://www.sipri.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "smithsonian-institution",
+  "name": "Smithsonian Institution",
+  "url": "https://www.si.edu",
+  "searchUrl": "https://www.si.edu?term={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "snopes",
+  "name": "Snopes",
+  "url": "https://www.snopes.com",
+  "searchUrl": "https://www.snopes.com?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "ssrn",
+  "name": "SSRN",
+  "url": "https://www.ssrn.com",
+  "searchUrl": "https://www.ssrn.com/search/?searchterm={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "finance"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "stanford-ai-index",
+  "name": "Stanford AI Index",
+  "url": "https://aiindex.stanford.edu",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity",
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "stanford-encyclopedia-of-philosophy",
+  "name": "Stanford Encyclopedia of Philosophy",
+  "url": "https://plato.stanford.edu",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "statistics-canada",
+  "name": "Statistics Canada",
+  "url": "https://www.statcan.gc.ca",
+  "searchUrl": "https://www.statcan.gc.ca?SearchText={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "ca"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "statistics-new-zealand",
+  "name": "Statistics New Zealand",
+  "url": "https://www.stats.govt.nz",
+  "searchUrl": "https://www.stats.govt.nz?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "nz"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "supreme-court-of-india",
+  "name": "Supreme Court of India",
+  "url": "https://main.sci.gov.in",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "telegram-public-channels",
+  "name": "Telegram (public channels)",
+  "url": "https://t.me/s/{query}",
+  "searchUrl": "https://t.me/s/{query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "the-guardian",
+  "name": "The Guardian",
+  "url": "https://www.theguardian.com",
+  "searchUrl": "https://www.theguardian.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "the-hindu",
+  "name": "The Hindu",
+  "url": "https://www.thehindu.com",
+  "searchUrl": "https://www.thehindu.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "the-indian-express",
+  "name": "The Indian Express",
+  "url": "https://indianexpress.com",
+  "searchUrl": "https://indianexpress.com?s={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "the-quint-webqoof",
+  "name": "The Quint WebQoof",
+  "url": "https://www.thequint.com/webqoof",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "the-wire",
+  "name": "The Wire",
+  "url": "https://thewire.in",
+  "searchUrl": "https://thewire.in/search?keywords={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "threads",
+  "name": "Threads",
+  "url": "https://www.threads.net/search",
+  "searchUrl": "https://www.threads.net/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "tiktok",
+  "name": "TikTok",
+  "url": "https://www.tiktok.com/search",
+  "searchUrl": "https://www.tiktok.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media",
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "No free API; manual-first.",
+  "lastChecked": null
+ },
+ {
+  "id": "tineye",
+  "name": "TinEye",
+  "url": "https://tineye.com",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Free web search; API needs paid RapidAPI key — not integrated.",
+  "lastChecked": null
+ },
+ {
+  "id": "uk-legislation",
+  "name": "UK Legislation",
+  "url": "https://www.legislation.gov.uk",
+  "searchUrl": "https://www.legislation.gov.uk?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law",
+   "government"
+  ],
+  "countries": [
+   "gb"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "uk-office-for-national-statistics",
+  "name": "UK Office for National Statistics",
+  "url": "https://www.ons.gov.uk",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "gb"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "uk-parliament",
+  "name": "UK Parliament",
+  "url": "https://www.parliament.uk",
+  "searchUrl": "https://www.parliament.uk?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "law",
+   "politics"
+  ],
+  "countries": [
+   "gb"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-comtrade",
+  "name": "UN Comtrade",
+  "url": "https://comtradeplus.un.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Free account required now — treat as optional.",
+  "lastChecked": null
+ },
+ {
+  "id": "un-data",
+  "name": "UN Data",
+  "url": "https://data.un.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-digital-library",
+  "name": "UN Digital Library",
+  "url": "https://digitallibrary.un.org",
+  "searchUrl": "https://digitallibrary.un.org?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-general-assembly",
+  "name": "UN General Assembly",
+  "url": "https://www.un.org/ga",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-human-rights-office",
+  "name": "UN Human Rights Office",
+  "url": "https://www.ohchr.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-ocha",
+  "name": "UN OCHA",
+  "url": "https://www.unocha.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-official-document-system",
+  "name": "UN Official Document System",
+  "url": "https://documents.un.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "Manual navigation: ODS search requires knowing document symbols."
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-population-division",
+  "name": "UN Population Division",
+  "url": "https://population.un.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-security-council",
+  "name": "UN Security Council",
+  "url": "https://www.un.org/securitycouncil",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-statistics-division",
+  "name": "UN Statistics Division",
+  "url": "https://unstats.un.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-treaty-collection",
+  "name": "UN Treaty Collection",
+  "url": "https://treaties.un.org",
+  "searchUrl": "https://treaties.un.org?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "un-women",
+  "name": "UN Women",
+  "url": "https://www.unwomen.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "unctad",
+  "name": "UNCTAD",
+  "url": "https://unctad.org",
+  "searchUrl": "https://unctad.org?keyword={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "undp",
+  "name": "UNDP",
+  "url": "https://www.undp.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "unep",
+  "name": "UNEP",
+  "url": "https://www.unep.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "unesco-institute-for-statistics",
+  "name": "UNESCO Institute for Statistics",
+  "url": "https://uis.unesco.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "unfccc",
+  "name": "UNFCCC",
+  "url": "https://unfccc.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "unhcr",
+  "name": "UNHCR",
+  "url": "https://www.unhcr.org",
+  "searchUrl": "https://www.unhcr.org?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "unicef",
+  "name": "UNICEF",
+  "url": "https://www.unicef.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "united-nations",
+  "name": "United Nations",
+  "url": "https://www.un.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "unodc",
+  "name": "UNODC",
+  "url": "https://www.unodc.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "law"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "us-bureau-of-economic-analysis",
+  "name": "US Bureau of Economic Analysis",
+  "url": "https://www.bea.gov",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "country-statistics"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "us-bureau-of-labor-statistics",
+  "name": "US Bureau of Labor Statistics",
+  "url": "https://www.bls.gov",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "us-census-bureau",
+  "name": "US Census Bureau",
+  "url": "https://www.census.gov",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "us-code",
+  "name": "US Code",
+  "url": "https://uscode.house.gov",
+  "searchUrl": "https://uscode.house.gov?req={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "us-congress",
+  "name": "US Congress",
+  "url": "https://www.congress.gov",
+  "searchUrl": "https://www.congress.gov?keyword={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "law",
+   "government",
+   "politics"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "us-government-publishing-office",
+  "name": "US Government Publishing Office",
+  "url": "https://www.govinfo.gov",
+  "searchUrl": "https://www.govinfo.gov?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "government",
+   "law"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "us-national-archives",
+  "name": "US National Archives",
+  "url": "https://www.archives.gov",
+  "searchUrl": "https://www.archives.gov/search?query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "government"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "us-sec-edgar-full-text-search",
+  "name": "US SEC EDGAR full-text search",
+  "url": "https://efts.sec.gov/LATEST/search-index",
+  "searchUrl": "https://efts.sec.gov/LATEST/search-index?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "finance",
+   "government"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "UI: https://www.sec.gov/edgar/search/ ; API is free with a declared User-Agent.",
+  "lastChecked": null
+ },
+ {
+  "id": "us-supreme-court",
+  "name": "US Supreme Court",
+  "url": "https://www.supremecourt.gov",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "law"
+  ],
+  "countries": [
+   "us"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "usgs-earthexplorer",
+  "name": "USGS EarthExplorer",
+  "url": "https://earthexplorer.usgs.gov",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "environment",
+   "images-video"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "virustotal",
+  "name": "VirusTotal",
+  "url": "https://www.virustotal.com",
+  "searchUrl": "https://www.virustotal.com/gui/search/-/{query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "cybersecurity"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Public web UI rate-limited; API needs key — optional integration only.",
+  "lastChecked": null
+ },
+ {
+  "id": "vishvas-news",
+  "name": "Vishvas News",
+  "url": "https://www.vishvasnews.com",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "fact-checking"
+  ],
+  "countries": [
+   "in"
+  ],
+  "sourceType": "fact-checker",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "wayback-machine",
+  "name": "Wayback Machine",
+  "url": "https://web.archive.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "images-video",
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "wayback"
+ },
+ {
+  "id": "who",
+  "name": "WHO",
+  "url": "https://www.who.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "health"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "who-data",
+  "name": "WHO Data",
+  "url": "https://data.who.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "health"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "wikidata",
+  "name": "Wikidata",
+  "url": "https://www.wikidata.org",
+  "searchUrl": "https://www.wikidata.org?search={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "wikipedia-search-api",
+  "name": "Wikipedia (search API)",
+  "url": "https://en.wikipedia.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "reference",
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "lastChecked": null,
+  "adapter": "wikipedia"
+ },
+ {
+  "id": "wmo",
+  "name": "WMO",
+  "url": "https://wmo.int",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics",
+   "environment"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "official-statistics",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "world-bank",
+  "name": "World Bank",
+  "url": "https://www.worldbank.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun",
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "world-bank-open-data-api",
+  "name": "World Bank Open Data API",
+  "url": "https://api.worldbank.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "country-statistics"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "public-api-optional",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": true,
+  "notes": "API adapter not implemented in v1 — used as a documented link only.",
+  "lastChecked": null,
+  "adapter": "worldbank"
+ },
+ {
+  "id": "wto",
+  "name": "WTO",
+  "url": "https://www.wto.org",
+  "searchUrl": null,
+  "searchUrlVerified": false,
+  "categories": [
+   "un-mun"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "primary",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ },
+ {
+  "id": "x-twitter",
+  "name": "X (Twitter)",
+  "url": "https://x.com/search",
+  "searchUrl": "https://x.com/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "social-media",
+   "news"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Login walls restrict automated access; no free read API. Manual-first.",
+  "lastChecked": null
+ },
+ {
+  "id": "youtube",
+  "name": "YouTube",
+  "url": "https://www.youtube.com/results",
+  "searchUrl": "https://www.youtube.com/results?search_query={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "news",
+   "images-video",
+   "social-media"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "news",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "restricted",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "notes": "Automated API requires a free Google key (quota); scraping ToS-restricted. Manual-first.",
+  "lastChecked": null
+ },
+ {
+  "id": "zenodo",
+  "name": "Zenodo",
+  "url": "https://zenodo.org",
+  "searchUrl": "https://zenodo.org/search?q={query}",
+  "searchUrlVerified": false,
+  "categories": [
+   "reference"
+  ],
+  "countries": [
+   "world"
+  ],
+  "sourceType": "reference",
+  "retrievalMode": "open-search-page",
+  "accessStatus": "not-checked",
+  "apiKeyRequired": false,
+  "paidServiceRequired": false,
+  "automationAllowed": false,
+  "lastChecked": null
+ }
+]
